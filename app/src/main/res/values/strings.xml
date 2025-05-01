@@ -10,4 +10,9 @@
     <string name="task_8">Завдання 8: Lottie-анімація</string>
     <string name="task_9">Завдання 9: Перехід Activity</string>
     <string name="task_10">Завдання 10: Фізична анімація</string>
+    <string name="go_forward">Перейти вперед</string>
+    <string name="go_home">Перейти на головну</string>
+    <string name="go_back">Повернутися назад</string>
+    <string name="move_rewind">Перемістити / Повернути</string>
+    <string name="colored_ball">Кольоровий м\'яч</string>
 </resources>

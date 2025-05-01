@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
         titleTextView.startAnimation(slideDownTitle);
 
         // Обробники натискань кнопок
-//        task1Button.setOnClickListener(v -> startActivity(new Intent(this, Task1Activity.class)));
+        task1Button.setOnClickListener(v -> startActivity(new Intent(this, Task1Activity.class)));
 //        task2Button.setOnClickListener(v -> startActivity(new Intent(this, Task2Activity.class)));
 //        task3Button.setOnClickListener(v -> startActivity(new Intent(this, Task3Activity.class)));
 //        task4Button.setOnClickListener(v -> startActivity(new Intent(this, Task4Activity.class)));
