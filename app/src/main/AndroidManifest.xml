@@ -25,6 +25,9 @@
         <activity
             android:name=".Task1Activity"
             android:exported="false" />
+        <activity
+            android:name=".Task2Activity"
+            android:exported="false" />
     </application>
 
 </manifest>

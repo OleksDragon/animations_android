@@ -57,7 +57,7 @@ public class Task1Activity extends AppCompatActivity {
         });
 
         backButton.setOnClickListener(v -> finish());
-        // forwardButton.setOnClickListener(v -> startActivity(new Intent(this, Task2Activity.class)));
+        forwardButton.setOnClickListener(v -> startActivity(new Intent(this, Task2Activity.class)));
         homeButton.setOnClickListener(v -> startActivity(new Intent(this, MainActivity.class)));
     }
 }

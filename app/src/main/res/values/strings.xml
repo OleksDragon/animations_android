@@ -15,4 +15,7 @@
     <string name="go_back">Повернутися назад</string>
     <string name="move_rewind">Перемістити / Повернути</string>
     <string name="colored_ball">Кольоровий м\'яч</string>
+    <string name="student">Студент навчається</string>
+    <string name="scale_up">Масштабувати</string>
+    <string name="press_button">Натисни кнопку!</string>
 </resources>
