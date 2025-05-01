@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="@string/app_name"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/mainImageView"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:src="@drawable/homework"
+        app:layout_constraintTop_toBottomOf="@id/titleTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/mainImageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/task1Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/task_1"
+            android:textSize="16sp"/>
+        <Button
+            android:id="@+id/task2Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/task_2"
+            android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/task3Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/task_3"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/task4Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/task_4"
+            android:textSize="16sp"/>
+        <Button
+            android:id="@+id/task5Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/task_5"
+            android:textSize="16sp"/>
+        <Button
+            android:id="@+id/task6Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/task_6"
+            android:textSize="16sp"/>
+        <Button
+            android:id="@+id/task7Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/task_7"
+            android:textSize="16sp"/>
+        <Button
+            android:id="@+id/task8Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/task_8"
+            android:textSize="16sp"/>
+        <Button
+            android:id="@+id/task9Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/task_9"
+            android:textSize="16sp"/>
+        <Button
+            android:id="@+id/task10Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/task_10"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

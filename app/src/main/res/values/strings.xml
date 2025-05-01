@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Анімації в Android</string>
+    <string name="task_1">Завдання 1: Переміщення</string>
+    <string name="task_2">Завдання 2: Зміна розміру</string>
+    <string name="task_3">Завдання 3: Обертання</string>
+    <string name="task_4">Завдання 4: Зміна кольору</string>
+    <string name="task_5">Завдання 5: Анімація кнопки</string>
+    <string name="task_6">Завдання 6: Прозорість</string>
+    <string name="task_7">Завдання 7: Комбінована анімація</string>
+    <string name="task_8">Завдання 8: Lottie-анімація</string>
+    <string name="task_9">Завдання 9: Перехід Activity</string>
+    <string name="task_10">Завдання 10: Фізична анімація</string>
+</resources>
