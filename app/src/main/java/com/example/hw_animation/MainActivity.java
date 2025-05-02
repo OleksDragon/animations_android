@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
         task2Button.setOnClickListener(v -> startActivity(new Intent(this, Task2Activity.class)));
         task3Button.setOnClickListener(v -> startActivity(new Intent(this, Task3Activity.class)));
         task4Button.setOnClickListener(v -> startActivity(new Intent(this, Task4Activity.class)));
-//        task5Button.setOnClickListener(v -> startActivity(new Intent(this, Task5Activity.class)));
+        task5Button.setOnClickListener(v -> startActivity(new Intent(this, Task5Activity.class)));
 //        task6Button.setOnClickListener(v -> startActivity(new Intent(this, Task6Activity.class)));
 //        task7Button.setOnClickListener(v -> startActivity(new Intent(this, Task7Activity.class)));
 //        task8Button.setOnClickListener(v -> startActivity(new Intent(this, Task8Activity.class)));
