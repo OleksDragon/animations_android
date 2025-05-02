@@ -19,4 +19,5 @@
     <string name="scale_up">Масштабувати</string>
     <string name="press_button">Натисни кнопку!</string>
     <string name="turn">Повернути логотип</string>
+    <string name="change_color">Зміна кольору</string>
 </resources>
