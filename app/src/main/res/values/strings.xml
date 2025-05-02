@@ -21,4 +21,6 @@
     <string name="turn">Повернути логотип</string>
     <string name="change_color">Зміна кольору</string>
     <string name="animate_button">Анімувати</string>
+    <string name="fade_toggle">Перемкнути прозорість</string>
+    <string name="fade_image">Зображення</string>
 </resources>

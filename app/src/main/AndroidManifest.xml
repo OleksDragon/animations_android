@@ -37,6 +37,9 @@
         <activity
             android:name=".Task5Activity"
             android:exported="false" />
+        <activity
+            android:name=".Task6Activity"
+            android:exported="false" />
     </application>
 
 </manifest>
