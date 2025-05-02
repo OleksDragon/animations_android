@@ -26,4 +26,6 @@
     <string name="animated_image">Анімоване зображення</string>
     <string name="start_animation">Запустити анімацію</string>
     <string name="stop_animation">Зупинити анімацію</string>
+    <string name="play_animation">Відтворити анімацію</string>
+    <string name="lottie_animation">Lottie анімація</string>
 </resources>
