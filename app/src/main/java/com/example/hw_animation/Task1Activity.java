@@ -3,7 +3,6 @@ package com.example.hw_animation;
 import android.animation.ObjectAnimator;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import androidx.appcompat.app.AppCompatActivity;
@@ -57,7 +56,17 @@ public class Task1Activity extends AppCompatActivity {
         });
 
         backButton.setOnClickListener(v -> finish());
-        forwardButton.setOnClickListener(v -> startActivity(new Intent(this, Task2Activity.class)));
-        homeButton.setOnClickListener(v -> startActivity(new Intent(this, MainActivity.class)));
+
+        forwardButton.setOnClickListener(v -> {
+            Intent intent = new Intent(this, Task2Activity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
+            startActivity(intent);
+        });
+
+        homeButton.setOnClickListener(v -> {
+            Intent intent = new Intent(this, MainActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
+            startActivity(intent);
+        });
     }
 }

@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
         // Обробники натискань кнопок
         task1Button.setOnClickListener(v -> startActivity(new Intent(this, Task1Activity.class)));
         task2Button.setOnClickListener(v -> startActivity(new Intent(this, Task2Activity.class)));
-//        task3Button.setOnClickListener(v -> startActivity(new Intent(this, Task3Activity.class)));
+        task3Button.setOnClickListener(v -> startActivity(new Intent(this, Task3Activity.class)));
 //        task4Button.setOnClickListener(v -> startActivity(new Intent(this, Task4Activity.class)));
 //        task5Button.setOnClickListener(v -> startActivity(new Intent(this, Task5Activity.class)));
 //        task6Button.setOnClickListener(v -> startActivity(new Intent(this, Task6Activity.class)));

@@ -57,9 +57,19 @@ public class Task2Activity extends AppCompatActivity {
         });
 
 
-        backButton.setOnClickListener(v -> startActivity(new Intent(this, Task1Activity.class)));
-        forwardButton.setOnClickListener(v -> startActivity(new Intent(this, Task2Activity.class)));
-        homeButton.setOnClickListener(v -> startActivity(new Intent(this, MainActivity.class)));
+        backButton.setOnClickListener(v -> {
+            Intent intent = new Intent(this, Task1Activity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
+            startActivity(intent);
+        });
+
+        forwardButton.setOnClickListener(v -> startActivity(new Intent(this, Task3Activity.class)));
+
+        homeButton.setOnClickListener(v -> {
+            Intent intent = new Intent(this, MainActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
+            startActivity(intent);
+        });
 
     }
 }
