@@ -29,7 +29,6 @@
     <string name="stop_animation">Зупинити анімацію</string>
     <string name="play_animation">Відтворити анімацію</string>
     <string name="lottie_animation">Lottie анімація</string>
-    <string name="transition_activity">Кастомний перехід між Activity з ефектом слайду</string>
     <string name="slide_back_transition">Слайд назад</string>
     <string name="fade_back_transition">Згасання назад</string>
     <string name="scale_back_transition">Масштабування назад</string>

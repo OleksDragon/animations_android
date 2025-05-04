@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Animations in Android</string>
+    <string name="task_1">Task 1: Moving</string>
+    <string name="task_2">Task 2: Resizing</string>
+    <string name="task_3">Task 3: Rotation</string>
+    <string name="task_4">Task 4: Color change</string>
+    <string name="task_5">Task 5: Button animation</string>
+    <string name="task_6">Task 6: Transparency</string>
+    <string name="task_7">Task 7: Combined animation</string>
+    <string name="task_8">Task 8: Lottie animation</string>
+    <string name="task_9">Task 9: Transition Activity</string>
+    <string name="task_10">Task 10: Physical Animation</string>
+    <string name="go_forward">Go forward</string>
+    <string name="go_home">Go to home page</string>
+    <string name="go_back">Go back</string>
+    <string name="move_rewind">Move / Rewind</string>
+    <string name="colored_ball">Color ball</string>
+    <string name="student">The student is studying</string>
+    <string name="scale_up">Scale up</string>
+    <string name="press_button">Press the button!</string>
+    <string name="turn">Return logo</string>
+    <string name="change_color">Color change</string>
+    <string name="animate_button">To animate</string>
+    <string name="fade_toggle">Toggle transparency</string>
+    <string name="fade_image">Image</string>
+    <string name="animated_image">Animated image</string>
+    <string name="animated_ball">Animated ball</string>
+    <string name="start_animation">Start the animation</string>
+    <string name="stop_animation">Stop animation</string>
+    <string name="play_animation">Play the animation</string>
+    <string name="lottie_animation">Lottie animation</string>
+    <string name="slide_back_transition">Slide back</string>
+    <string name="fade_back_transition">Fade back</string>
+    <string name="scale_back_transition">Zoom back</string>
+    <string name="slide_forward_transition">Slide forward</string>
+    <string name="fade_forward_transition">Fade forward</string>
+    <string name="scale_forward_transition">Zoom forward</string>
+    <string name="springy_animation">Springiness</string>
+    <string name="throw_animation">Throwing</string>
+</resources>
