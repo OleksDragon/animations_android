@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
         task7Button.setOnClickListener(v -> startActivity(new Intent(this, Task7Activity.class)));
         task8Button.setOnClickListener(v -> startActivity(new Intent(this, Task8Activity.class)));
         task9Button.setOnClickListener(v -> startActivity(new Intent(this, Task9Activity.class)));
-//        task10Button.setOnClickListener(v -> startActivity(new Intent(this, Task10Activity.class)));
+        task10Button.setOnClickListener(v -> startActivity(new Intent(this, Task10Activity.class)));
     }
 
     // Рекурсивна функція для анімації кнопок

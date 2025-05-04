@@ -24,6 +24,7 @@
     <string name="fade_toggle">Перемкнути прозорість</string>
     <string name="fade_image">Зображення</string>
     <string name="animated_image">Анімоване зображення</string>
+    <string name="animated_ball">Анімований м’яч</string>
     <string name="start_animation">Запустити анімацію</string>
     <string name="stop_animation">Зупинити анімацію</string>
     <string name="play_animation">Відтворити анімацію</string>
@@ -35,4 +36,6 @@
     <string name="slide_forward_transition">Слайд вперед</string>
     <string name="fade_forward_transition">Згасання вперед</string>
     <string name="scale_forward_transition">Масштабування вперед</string>
+    <string name="springy_animation">Пружність</string>
+    <string name="throw_animation">Кидання</string>
 </resources>

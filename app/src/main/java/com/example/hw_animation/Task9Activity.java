@@ -31,35 +31,35 @@ public class Task9Activity extends AppCompatActivity {
         });
 
         fadeBackButton.setOnClickListener(v -> {
-            Intent intent = new Intent(this, Task1Activity.class);
+            Intent intent = new Intent(this, Task8Activity.class);
             intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
             startActivity(intent);
             overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
         });
 
         scaleBackButton.setOnClickListener(v -> {
-            Intent intent = new Intent(this, Task1Activity.class);
+            Intent intent = new Intent(this, Task8Activity.class);
             intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
             startActivity(intent);
             overridePendingTransition(R.anim.scale_in, R.anim.scale_out);
         });
 
         slideForwardButton.setOnClickListener(v -> {
-            Intent intent = new Intent(this, Task1Activity.class);
+            Intent intent = new Intent(this, Task10Activity.class);
             intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
             startActivity(intent);
             overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
         });
 
         fadeForwardButton.setOnClickListener(v -> {
-            Intent intent = new Intent(this, Task1Activity.class);
+            Intent intent = new Intent(this, Task10Activity.class);
             intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
             startActivity(intent);
             overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
         });
 
         scaleForwardButton.setOnClickListener(v -> {
-            Intent intent = new Intent(this, Task1Activity.class);
+            Intent intent = new Intent(this, Task10Activity.class);
             intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
             startActivity(intent);
             overridePendingTransition(R.anim.scale_in, R.anim.scale_out);
@@ -70,7 +70,7 @@ public class Task9Activity extends AppCompatActivity {
             intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
             startActivity(intent);
         });
-        forwardButton.setOnClickListener(v -> startActivity(new Intent(this, Task1Activity.class)));
+        forwardButton.setOnClickListener(v -> startActivity(new Intent(this, Task10Activity.class)));
         homeButton.setOnClickListener(v -> {
             Intent intent = new Intent(this, MainActivity.class);
             intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
