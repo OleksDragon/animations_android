@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="@string/task_9"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/slideBackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/slide_back_transition"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleTextView" />
+
+    <Button
+        android:id="@+id/fadeBackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="58dp"
+        android:text="@string/fade_back_transition"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@id/slideBackButton"
+        app:layout_constraintTop_toBottomOf="@id/slideBackButton" />
+
+    <Button
+        android:id="@+id/scaleBackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="58dp"
+        android:text="@string/scale_back_transition"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@id/fadeBackButton"
+        app:layout_constraintTop_toBottomOf="@id/fadeBackButton" />
+
+    <Button
+        android:id="@+id/slideForwardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="150dp"
+        android:text="@string/slide_forward_transition"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleTextView" />
+
+    <Button
+        android:id="@+id/fadeForwardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="58dp"
+        android:text="@string/fade_forward_transition"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@id/slideForwardButton"
+        app:layout_constraintTop_toBottomOf="@id/slideForwardButton" />
+
+    <Button
+        android:id="@+id/scaleForwardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:text="@string/scale_forward_transition"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@id/fadeForwardButton"
+        app:layout_constraintTop_toBottomOf="@id/fadeForwardButton" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/backButton"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        app:icon="@drawable/ic_back"
+        android:contentDescription="@string/go_back"
+        app:iconPadding="8dp"
+        android:padding="8dp"
+        app:iconSize="32dp"
+        app:iconTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/homeButton"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        android:layout_marginBottom="20dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/homeButton"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        app:icon="@drawable/ic_home"
+        android:contentDescription="@string/go_home"
+        app:iconPadding="8dp"
+        android:padding="8dp"
+        app:iconSize="32dp"
+        app:iconTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/backButton"
+        app:layout_constraintEnd_toStartOf="@id/forwardButton"
+        android:layout_marginBottom="20dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/forwardButton"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        app:icon="@drawable/ic_forward"
+        android:contentDescription="@string/go_forward"
+        app:iconPadding="8dp"
+        android:padding="8dp"
+        app:iconSize="32dp"
+        app:iconTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/homeButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="20dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

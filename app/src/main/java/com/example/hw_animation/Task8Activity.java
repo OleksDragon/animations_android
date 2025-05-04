@@ -32,7 +32,7 @@ public class Task8Activity extends AppCompatActivity {
             intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
             startActivity(intent);
         });
-        forwardButton.setOnClickListener(v -> startActivity(new Intent(this, Task1Activity.class)));
+        forwardButton.setOnClickListener(v -> startActivity(new Intent(this, Task9Activity.class)));
         homeButton.setOnClickListener(v -> {
             Intent intent = new Intent(this, MainActivity.class);
             intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);

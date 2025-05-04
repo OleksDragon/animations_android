@@ -46,6 +46,9 @@
         <activity
             android:name=".Task8Activity"
             android:exported="false" />
+        <activity
+            android:name=".Task9Activity"
+            android:exported="false" />
     </application>
 
 </manifest>
